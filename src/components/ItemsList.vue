@@ -38,7 +38,7 @@ export default {
                     this.itemsList = response.data;
                     this.isLoading = false;
                 });
-            }, 2000);
+            }, 300);
         }
     },
     watch: {
